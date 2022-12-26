@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    
+}
+header{
+    background-color: goldenrod;
+    color: white;
+}
+span{
+    color: black;
+}
+.top h2{
+    margin-left: 20px;
+}
+nav ul{
+    list-style: none; 
+    display: flex;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav a{
+    margin-right: 20px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: black;
+}
+.header {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 30%;
+}
+/*img{
+    width: 150px;
+    border: 5px solid goldenrod;
+    border-radius: 50%;
+    margin-top: 40px;
+}*/
+
+.self{
+    margin: 100px 60px;
+}
+.about{
+    text-align: center;
+}
+.others{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list{
+    margin: 10%;
+    background-color: goldenrod;
+    padding: 20px;
+}
+.list ul{
+    margin-left: 10%;
+    background-color: goldenrod;
+}
+.button{
+    text-align: end;
+}
+button{
+    background-color: goldenrod;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+button:hover{
+    text-decoration: underline;
+
+}
+footer{
+    /* position: absolute; */
+    margin: 0 auto;
+    background-color: goldenrod;
+
+    /* bottom: 0%;*/
+} 
+footer p{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 15%;
+    margin-top: 30px;
+} 
+.form{
+    margin-left: 15%;
+    text-align: center;
+} 
+.form h2{
+    margin-bottom: 20px;
+
+} 
